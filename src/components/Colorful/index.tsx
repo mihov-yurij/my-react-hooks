@@ -1,6 +1,10 @@
 import { useState } from 'react';
 import { HexColorPicker } from 'react-colorful';
 
+
+
+
+
 const Colorful = () => {
   const [color, setColor] = useState('#aabbcc'); // Початковий колір
 

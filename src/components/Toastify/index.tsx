@@ -1,4 +1,7 @@
 import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 
 function Toastify() {
   const notify = () => toast("Test toastify works...", { onOpen: () => console.log("Click on Notify button"), autoClose: false, type: "error", position: "bottom-center" });

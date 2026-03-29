@@ -1,3 +1,7 @@
+
+
+
+
 .counter {
   font-size: 16px;
   padding: 5px 10px;
@@ -8,6 +12,9 @@
   transition: border-color 0.3s;
   margin-bottom: 24px;
 
+
+
+
   &:hover {
     border-color: var(--accent-border);
   }
@@ -17,6 +24,25 @@
   }
 }
 
+
+
+
+
+
+/* Простой CSS для оформления, если Tailwind не подхватился */
+.counter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 40px 20px;
+}
+.counter-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
 .hero {
   position: relative;
 
@@ -55,6 +81,7 @@
       scale(0.8);
   }
 }
+
 
 #center {
   display: flex;
@@ -182,3 +209,8 @@
     border-right-color: var(--border);
   }
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+

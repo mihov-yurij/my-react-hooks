@@ -70,4 +70,11 @@ export default defineConfig([
     },
   },
 ])
+
+## Features
+- React Hooks examples
+- UI libraries integration
+- Routing
+- State management
+
 ```

@@ -1,11 +1,16 @@
-import { CounterUp } from './components/CountUp/index'; // Добавили фигурные скобки
+import React from 'react';
+import CounterUp from './components/CountUp'; // Убрали /index для корректной работы Vite
 import './index.css';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 p-8 text-center">
-      <h1 className="text-3xl font-bold mb-8">My Hooks Showcase</h1>
-      <CounterUp />
+    <div className="min-h-screen bg-gray-100 p-8">
+      <h1 className="text-3xl font-bold text-center mb-8 text-gray-800">
+        My Hooks Showcase
+      </h1>
+      <div className="max-w-6xl mx-auto">
+        <CounterUp />
+      </div>
     </div>
   );
 }

@@ -4,6 +4,12 @@ import { FaBriefcase } from "react-icons/fa";
 import { FaSackDollar, FaUserAstronaut } from "react-icons/fa6"; 
 import { TbBrandZapier } from "react-icons/tb";
 
+
+
+
+
+
+
 const stats = [
   { id: 1, label: 'Зароблено коштів', end: 12500.5, prefix: '$', color: 'text-green-500', type: 'money' },
   { id: 2, label: 'Зареєстровано', end: 450, color: 'text-blue-500', type: 'users' },
